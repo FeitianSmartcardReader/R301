@@ -1,15 +1,28 @@
-R301
-====
+Feitian R301 chip card reader
 
-Feitian R301 is PCSC Reader, compliant with ISO7816 and EMV Level 1 specifications. It supports cards that are compliant with ISO-7816 T=0 and T=1 Class A,B,C
+Introduce
 
-Install driver on PC:
-1. Windows
-   Feitian R301 using MS CCID driver, you don't need install any driver on Windows, except Windows XP
-2. Linux
-   Please refer to http://pcsclite.alioth.debian.org/ccid/shouldwork.html
+Feitian R301(Rockey 301) is a CCID compliant smart card reader with USB 2.0 full speed support. It offers a plug-and-play solution saving the effort on driver installation and system compliance checking.
+Feitian R301 can be adopted in smart card-based applications, such as e-Banking, e-Government, e-Payment, access control, network security and more.
+
+To install
+ || ||
+ 
+Windows
+
+ * Feitian R301 using MS CCID driver, you don't need install any driver on Windows, except Windows XP
+
+Linux
+
+ * Please refer to http://pcsclite.alioth.debian.org/ccid/shouldwork.html
    Install CCID driver on your Linux, follow http://pcsclite.alioth.debian.org/ccid.html#download
-3. Mac OS X
-   The Mac OS X already integrated FEITIAN R301 support, you just plug-in and using. Also you can build CCID driver by yourself on MAC OS X, check http://pcsclite.alioth.debian.org/ccid.html#MacOSX
 
+Mac OS X 10.5 - 10.10
+
+ * The Mac OS X already integrated FEITIAN R301 support, you just plug-in and using. Also you can build CCID driver by yourself on MAC OS X, check 
+http://pcsclite.alioth.debian.org/ccid.html#MacOSX
+
+
+
+FAQs
 
