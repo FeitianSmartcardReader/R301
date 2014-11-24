@@ -1,0 +1,4 @@
+2014/06/27
+	Add UID/Update software into SDK
+2014/01/26
+	Add LINUX and MAC OS X SDK
