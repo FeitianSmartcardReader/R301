@@ -10,7 +10,8 @@ To install
 Windows
 
  * Feitian R301 using MS CCID driver, you don't need install any driver on Windows, except Windows XP
-
+For Windows Xp, please install below driver:
+http://download.ftsafe.com/files/reader/CCID_driver_on_Windows2000+.zip
 Linux
 
  * Please refer to http://pcsclite.alioth.debian.org/ccid/shouldwork.html
