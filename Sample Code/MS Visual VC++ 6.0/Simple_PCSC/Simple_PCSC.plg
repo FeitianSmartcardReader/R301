@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Simple_PCSC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lyl\AppData\Local\Temp\RSPFED4.tmp" with contents
+[
+/nologo /MD /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Simple_PCSC.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\WorkFile\Project\Î¬»¤\PCSC\sdks\FEITIAN\MS Visual VC++ 6.0\Simple_PCSC\Simple_PCSCDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\lyl\AppData\Local\Temp\RSPFED4.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Simple_PCSC.pdb" /machine:I386 /out:"Release/Simple_PCSC.exe"  ".\Release\Simple_PCSC.obj" ".\Release\Simple_PCSCDlg.obj" ".\Release\StdAfx.obj" ".\Release\Simple_PCSC.res" "
+<h3>Output Window</h3>
+Compiling...
+Simple_PCSCDlg.cpp
+E:\WorkFile\Project\Î¬»¤\PCSC\sdks\FEITIAN\MS Visual VC++ 6.0\Simple_PCSC\Simple_PCSCDlg.cpp(457) : warning C4018: '!=' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Simple_PCSC.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

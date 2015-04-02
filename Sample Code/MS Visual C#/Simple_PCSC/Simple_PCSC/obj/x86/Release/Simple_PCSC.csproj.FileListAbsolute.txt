@@ -1,0 +1,8 @@
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\bin\Release\Simple_PCSC.exe
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\bin\Release\Simple_PCSC.pdb
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\obj\x86\Release\Simple_PCSC.csprojResolveAssemblyReference.cache
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\obj\x86\Release\Simple_PCSC.Simple_PCSC.resources
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\obj\x86\Release\Simple_PCSC.Properties.Resources.resources
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\obj\x86\Release\Simple_PCSC.csproj.GenerateResource.Cache
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\obj\x86\Release\Simple_PCSC.exe
+E:\WorkFile\Project\维护\PCSC\sdks\FEITIAN\MS Visual C#\Simple_PCSC\Simple_PCSC\obj\x86\Release\Simple_PCSC.pdb

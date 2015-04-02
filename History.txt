@@ -1,3 +1,5 @@
+2015/4/2
+	Add sample code into github(MS Visual VC++ 6.0, MS Visual C#, JAVA, Borland Delphi 7)
 2014/06/27
 	Add UID/Update software into SDK
 2014/01/26
