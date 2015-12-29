@@ -1,3 +1,5 @@
+2015/12/28
+	Add UID TOOL for R301M
 2015/4/2
 	Add sample code into github(MS Visual VC++ 6.0, MS Visual C#, JAVA, Borland Delphi 7)
 2014/06/27
