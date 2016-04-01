@@ -196,9 +196,7 @@ namespace Simple_PCSC
         public const int SCARD_EJECT_CARD = 3;   // Eject the card on close
 
 
-        /* ===========================================================
-        ' ACS IOCTL class
-        '===========================================================*/
+ 
         public const long FILE_DEVICE_SMARTCARD = 0x310000; // Reader action IOCTLs
 
         public const long IOCTL_SMARTCARD_DIRECT = FILE_DEVICE_SMARTCARD + 2050 * 4;

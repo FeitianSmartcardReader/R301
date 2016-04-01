@@ -467,7 +467,6 @@ void CSimple_PCSCDlg::OnBnStatus()
 		{
 			
 		case 1:
-			if( strcmp( readerName, "ACS ACR128U PICC Interface 0" ) == 0 )
 			{
 				sprintf( tempstr, "%s T=CL\n", tempstr );		
 			}
@@ -477,7 +476,6 @@ void CSimple_PCSCDlg::OnBnStatus()
 			}
 			break;
 		case 2:
-			if( strcmp( readerName, "ACS ACR128U PICC Interface 0" ) == 0 )
 			{
 				sprintf( tempstr, "%s T=CL\n", tempstr );	
 			}
