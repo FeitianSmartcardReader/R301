@@ -1,3 +1,6 @@
+2016/7/18
+	Add new R301 SIM card reader datasheet into SDK, they are using same SDK
+	Update R301 User manual
 2016/2/22
 	Add user manual
 2015/12/28
