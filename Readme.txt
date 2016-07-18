@@ -23,13 +23,17 @@ Mac OS X 10.5 - 10.10
  * The Mac OS X already integrated FEITIAN R301 support, you just plug-in and using. Also you can build CCID driver by yourself on MAC OS X, check 
 http://pcsclite.alioth.debian.org/ccid.html#MacOSX
 
+Buy samples, please access http://www.ftsafe.com/onlinestore/product?id=11.
+
 Any questions, feel free contact FEITIAN anytime.
 
 
 The reader lights means:
 Rule of Rockey301 lights:
-¡ñ Red light (USB communication status light)
-¡ñ Blue light(Card communication status light)
+
+1. Red light (USB communication status light)
+2. Blue light(Card communication status light)
+
 Red light:
 No.	Process	Light status
 1	USB Enumeration process	Flashing
