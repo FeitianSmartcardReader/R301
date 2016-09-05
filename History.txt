@@ -1,3 +1,6 @@
+2016/9/5
+	Update R301 user manual
+	Add related tool for R301E2 model
 2016/7/18
 	Add new R301 SIM card reader datasheet into SDK, they are using same SDK
 	Update R301 User manual
