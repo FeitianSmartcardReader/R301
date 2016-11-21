@@ -6,11 +6,11 @@ Feitian R301(Rockey 301) is a CCID compliant smart card reader with USB 2.0 full
 Feitian R301 can be adopted in smart card-based applications, such as e-Banking, e-Government, e-Payment, access control, network security and more.
 
 
-## Using the SDK
+Using the SDK
 
 The easiest way to use these samples without using Git is to download the zip file containing the current version (using the following link or by clicking the "Download ZIP" button on the repo page). You can then unzip the entire archive and use the SDK.
 
-   [Download the samples ZIP](../../archive/master.zip)
+   https://github.com/FeitianSmartcardReader/R301/archive/master.zip
 
    **Notes:** 
    * Before you unzip the archive, right-click it, select **Properties**, and then select **Unblock**.
