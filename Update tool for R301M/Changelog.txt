@@ -1,4 +1,0 @@
-2015/12/28
-	Add 4.51 firmware into github, fix clock frequency problem, the default is 4MHz
-2015/9/6
-	Publish R301M update tool, support windows 7/8/10

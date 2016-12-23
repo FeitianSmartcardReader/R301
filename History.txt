@@ -1,3 +1,5 @@
+2016/12/23
+	Update user manual to 1.5
 2016/9/5
 	Update R301 user manual
 	Add related tool for R301E2 model

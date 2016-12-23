@@ -1,0 +1,1 @@
+Using administrator to run Update_Tool_V1.0.exe to do update the firmware.

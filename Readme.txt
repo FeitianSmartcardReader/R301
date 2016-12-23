@@ -40,25 +40,3 @@ Buy samples, please access http://www.ftsafe.com/onlinestore/product?id=11.
 Any questions, feel free contact FEITIAN anytime.
 
 
-The reader lights means:
-Rule of Rockey301 lights:
-
-1. Red light (USB communication status light)
-2. Blue light(Card communication status light)
-
-Red light:
-No.	Process	Light status
-1	USB Enumeration process	Flashing
-2	USB is not established	Always turn on
-3	USB is established	Flashing
-4	USB exchange data	Irregular flashing
-Blue light:
-No.	Process	Blue light
-1	NO card	Always OFF
-2	Card inserted and un-power	Always OFF
-3	Card inserted and powered	Always ON
-4	Exchange data between USB and reader	Always ON
-5	Short circuit card or ATR error	Turn OFF after ON
-
-
-
