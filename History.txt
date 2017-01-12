@@ -1,3 +1,5 @@
+2017/01/12
+	Update user manual and upload R301M read Serial number tool
 2016/12/23
 	Update user manual to 1.5
 2016/9/5
