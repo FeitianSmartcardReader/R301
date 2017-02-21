@@ -1,0 +1,1 @@
+We offer Windows XP driver and Windows 7 offline driver, because some of customer feedback Windows 7 cannot do update latest CCID driver from Microsoft update center, and Windows 8 and 10 doesn't have this issue.
