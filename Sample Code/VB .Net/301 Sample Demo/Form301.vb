@@ -41,7 +41,8 @@ ERROR1:
         SCardDisconnect(lCard, SCARD_UNPOWER_CARD)
         SCardReleaseContext(lContext)
         lContext = Nothing
-        MsgBox("SCardConnect ERROR failed !", MsgBoxStyle.Information, "SCardConnect")
+        MsgBox(SCardErrDescription(ret), MsgBoxStyle.Information, "ERROR")
+
         Return
 SUCCESS:
         StatuConnect()
@@ -99,7 +100,7 @@ ERROR1:
         SCardDisconnect(lCard, SCARD_UNPOWER_CARD)
         SCardReleaseContext(lContext)
         lContext = Nothing
-        MsgBox("ERROR failed !", MsgBoxStyle.Information, "ListReaders")
+        MsgBox(SCardErrDescription(ret), MsgBoxStyle.Information, "ERROR")
         Return
 SUCCESS:
     End Sub
@@ -146,7 +147,7 @@ ERROR1:
         SCardDisconnect(lCard, SCARD_UNPOWER_CARD) ' disconnette la carta
         SCardReleaseContext(lContext)
         lContext = Nothing
-        MsgBox("ERROR failed !", MsgBoxStyle.Information, "ListReaders")
+        MsgBox(SCardErrDescription(ret), MsgBoxStyle.Information, "ERROR")
         Return
 SUCCESS:
     End Sub
