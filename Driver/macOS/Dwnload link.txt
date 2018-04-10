@@ -1,1 +1,0 @@
-The current CCID version is 0.13, if you want have latest version, please download from https://github.com/martinpaljak/osx-ccid-installer

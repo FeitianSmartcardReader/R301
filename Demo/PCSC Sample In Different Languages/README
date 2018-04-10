@@ -1,0 +1,42 @@
+https://ludovicrousseau.blogspot.jp/2010/04/pcsc-sample-in-different-languages.html
+PC/SC sample in different languages
+The PC/SC API also called WinSCard can be used from a large variety of languages. I will start a serie of blogs to present the same program (functionnally) but using different languages.
+
+Languages:
+C
+Perl
+Python
+scriptor
+OCaml
+Prolog
+Ruby
+Java
+C#
+Ada
+PHP (dead upstream as 11 January 2015)
+PHP5
+lua
+JavaScript (Node.js)
+Python (using python-pcsclite)
+Common Lisp
+C for UEFI
+Objective-C (using Crypto Token Kit)
+Swift (using Crypto Token Kit)
+go
+Smart Card Connector on Chromebook
+Rust
+Objective-C (synchronous)
+If you know a wrapper for a language not listed above please contact me.
+
+Program
+The program shall do:
+connect to the first found smart card reader
+send APDU: 00 A4 04 00 0A A0 00 00 00 62 03 01 0C 06 01
+display result
+send APDU: 00 00 00 00
+display result
+The first APDU is a SELECT command to select a test applet. The second command is the only command known by the applet.
+
+
+Smart card Applet
+The applet only knows one command and returns Hello world! (yes, it is a test applet). It was described in a French magazine GNU/Linux Magazine HS n¡ã39.

@@ -1,1 +1,0 @@
-rundll32.exe setupapi.dll,InstallHinfSection USBCCID.Install 132 .\usbccid.inf

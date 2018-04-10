@@ -1,0 +1,34 @@
+Build libusb, ccid, pcsclite to embedded platform:
+mkdir -p /usr/ccid
+build libusb
+git clone https://github.com/libusb/libusb
+aclocal
+./bootstrap.sh
+./configure --build=i686-linux --host=arm-none-linux CC=/opt/arm-2014.05/bin/arm-none-linux-gnueabi-gcc --prefix=/usr/ccid --disable-udev --enable-static
+make
+make install
+#The lib and header file will saved at install folder
+
+
+#download latest pcsc
+git clone https://github.com/LudovicRousseau/PCSC 
+aclocal
+./bootstrap
+./configure CC=/opt/arm-2014.05/bin/arm-none-linux-gnueabi-gcc --host=arm-none-linux --prefix=/usr/ccid --enable-libusb LIBUSB_LIBS="-L/usr/ccid/lib/ -lusb-1.0" LIBUSB_CFLAGS="-I/usr/ccid/include/libusb-1.0" PCSC_CFLAGS="-I/usr/ccid/include/PCSC" PCSC_LIBS="-L/usr/ccid/lib/ -lpcsclite" --enable-usbdropdir="/usr/ccid/lib/pcsc/drivers" --enable-static --disable-libudev --disable-libsystemd
+#if found error of pcsc-wirecheck-gen, this is cross compiled for ARM but is executed on the x86 system, comments this line pcsc-wirecheck-main.c +12
+make 
+make install
+
+build ccid
+git clone https://github.com/LudovicRousseau/CCID
+aclocal #if give error of m4, then cp PCSC source code folder and do replacement PCSC in CCID folder
+./bootstrap
+./configure CC=/opt/arm-2014.05/bin/arm-none-linux-gnueabi-gcc --host=arm-none-linux --prefix=/usr/ccid --prefix=/usr/ccid --enable-libusb LIBUSB_LIBS="-L/usr/ccid/lib/ -lusb-1.0 -lrt" LIBUSB_CFLAGS="-I/usr/ccid/include/libusb-1.0" PCSC_CFLAGS="-I/usr/ccid/include/PCSC" PCSC_LIBS="-L/usr/ccid/lib/ -lpcsclite" --enable-usbdropdir="/usr/ccid/lib/pcsc/drivers"
+
+make  # if got error libPCSCv2part10, then create below folder and find PCSCv2part10.c and PCSCv2part10.h source code from internet, copy to contrib_libPCSCv2part10/libPCSCv2part10/
+mkdir -p contrib_libPCSCv2part10/libPCSCv2part10/
+make install
+
+go to /usr/ccid
+tar cvf ccid.tar.gz *
+copy ccid.tar.gz to ramdisk, unzip to folder /usr/ccid

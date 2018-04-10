@@ -1,1 +1,0 @@
-https://github.com/FeitianSmartcardReader/Feitian_Android_PCSC_SDK
