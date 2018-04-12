@@ -1,5 +1,11 @@
-Using administrator to run Update_Tool_V1.0.exe to do update the firmware.
+Using administrator to run Update_Tool.exe to do update the firmware.
 
+
+V1.0.8 2018/04/12
+Upgrade update tool
+Updates:
+    [1]: Add R301 Dual Reader support
+	
 Firmware update history:
 5.46:
 Update firmware, improve reader perfermance

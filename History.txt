@@ -1,3 +1,6 @@
+2018/04/12
+	Upgrade "update tool.exe", add R301-Dual reader support
+	Upgrade Android SDK, new combo SDK can support all Feitian USB and Bluetooth readers.
 2018/04/10
 	Remove R301M related tool, already stop production
 	Adjust the directory structure

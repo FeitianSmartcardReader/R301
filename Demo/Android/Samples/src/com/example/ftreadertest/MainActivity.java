@@ -257,7 +257,7 @@ public class MainActivity extends Activity {
 					BluetoothAdapter mBlueToothAdapter = null;				
 					mBlueToothAdapter = BluetoothAdapter.getDefaultAdapter();
 					if(mBlueToothAdapter == null){
-						showLog("Doesn't support Bluetooth");
+						showLog("≤ª÷ß≥÷¿∂—¿");
 						return;
 					}				
 					if(! mBlueToothAdapter.isEnabled()){
@@ -860,7 +860,7 @@ public class MainActivity extends Activity {
 			case DK.BT4_NEW:
 				BluetoothDevice mDevice = (BluetoothDevice) msg.obj;
 				textView.append("[BT4_NEW]:"+mDevice.getName()+"\n");
-				if(mDevice.getName()!=null && mDevice.getName().startsWith("FT_00A050031419")){
+				if(mDevice.getName()!=null && mDevice.getName().startsWith("FT_")){
 					arrayForBlueToothDevice.add(mDevice);					
 					addSpinnerD_14("°æ"+mDevice.getName()+"°ø"+mDevice.getAddress());
 				}
