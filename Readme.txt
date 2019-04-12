@@ -35,6 +35,10 @@ Mac OS X 10.5 - 10.10
  * The Mac OS X already integrated FEITIAN R301 support, you just plug-in and using. Also you can build CCID driver by yourself on MAC OS X, check 
 http://pcsclite.alioth.debian.org/ccid.html#MacOSX
 
+For Android platform, please using below SDK:
+
+https://github.com/FeitianSmartcardReader/FEITIAN_MOBILE_READERS
+
 Buy samples, please access https://ftsafe.com/onlinestore/index.
 
 Any questions, feel free contact FEITIAN anytime.
