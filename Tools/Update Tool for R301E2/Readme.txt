@@ -7,6 +7,8 @@ Updates:
     [1]: Add R301 Dual Reader support
 	
 Firmware update history:
+5.47:
+Improve the compatibility of smart card 
 5.46:
 Update firmware, improve reader perfermance
 5.45:
