@@ -13,3 +13,4 @@ Firmware update history:
 5.47: Improve the compatibility of smart card 
 5.46: Update firmware, improve reader perfermance
 5.45: Update bootloader lib, solve low power issue and improve usb compatibility
+5.52: Update firmware: 1.Add low voltage detection to prevent from no-reseting; 2.Improve card compatibility.
