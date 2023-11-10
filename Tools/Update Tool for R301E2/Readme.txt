@@ -1,5 +1,5 @@
 Using administrator to run Update_Tool.exe to do update the firmware.
-
+**Please note: Keep only one .meta file in the same folder with Update_Tool.exe**
 
 V1.0.8 2018/04/12
 Upgrade update tool
