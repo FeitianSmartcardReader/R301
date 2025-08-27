@@ -1,11 +1,13 @@
+2025/8/27
+	Upload FW v1.20 update tool for readers with T1 chip hardware solution
+	Upload FW v3.15 update tool for readers with R14 chip with 4GBytes flash memory hardware solution
+	Reorgnize folders and files
 2018/04/12
 	Upgrade "update tool.exe", add R301-Dual reader support
 	Upgrade Android SDK, new combo SDK can support all Feitian USB and Bluetooth readers.
 2018/04/10
 	Remove R301M related tool, already stop production
 	Adjust the directory structure
-
-
 	Update Android SDK
 2017/02/21
 	Add Driver folder
